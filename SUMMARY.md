@@ -1,4 +1,4 @@
 # Table of contents
 
-* [נסיון לכתוב בעברית](README.md)
+* [Shikata Ga Nai](README.md)
 

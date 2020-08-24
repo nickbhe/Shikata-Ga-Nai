@@ -1,6 +1,4 @@
-# נסיון לכתוב בעברית
+# Shikata Ga Nai
 
-איך זה נראה?
-
-תמיד תהיתי בעניין.
+Cybersecurity toolbox for personal use.
 
