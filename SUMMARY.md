@@ -4,8 +4,7 @@
 
 ## Toddler's Pentest
 
-* [Privilege Escalation](toddlers-pentest/privilege-escalation/README.md)
-  * [Generate Payload](toddlers-pentest/privilege-escalation/generate-payload.md)
+* [General](toddlers-pentest/general.md)
 * [Scanning & Enumeration](toddlers-pentest/scanning-and-enumeration/README.md)
   * [Nmap](toddlers-pentest/scanning-and-enumeration/nmap.md)
   * [Enumerating SMB](toddlers-pentest/scanning-and-enumeration/enumerating-smb.md)
@@ -16,4 +15,6 @@
   * [File Inclusion](toddlers-pentest/gaining-access/file-inclusion.md)
   * [SQL Injection](toddlers-pentest/gaining-access/sql-injection.md)
   * [Password Cracking](toddlers-pentest/gaining-access/password-cracking.md)
+* [Privilege Escalation](toddlers-pentest/privilege-escalation/README.md)
+  * [Generate Payload](toddlers-pentest/privilege-escalation/generate-payload.md)
 
