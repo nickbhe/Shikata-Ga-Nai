@@ -18,3 +18,8 @@
 * [Privilege Escalation](toddlers-pentest/privilege-escalation/README.md)
   * [Generate Payload](toddlers-pentest/privilege-escalation/generate-payload.md)
 
+## PWN
+
+* [Calling Conventions](pwn/calling-conventions.md)
+* [Debuggers](pwn/debuggers.md)
+
