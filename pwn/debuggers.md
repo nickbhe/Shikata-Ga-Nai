@@ -36,6 +36,12 @@ i functions
 i b
 ```
 
+#### List registers
+
+```text
+i registers
+```
+
 ### Breakpoints
 
 **b** is an abbreviation for **break**.
