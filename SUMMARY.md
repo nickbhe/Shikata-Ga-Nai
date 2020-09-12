@@ -7,6 +7,7 @@
 * [General](toddlers-pentest/general.md)
 * [Scanning & Enumeration](toddlers-pentest/scanning-and-enumeration/README.md)
   * [Nmap](toddlers-pentest/scanning-and-enumeration/nmap.md)
+  * [FTP](toddlers-pentest/scanning-and-enumeration/ftp.md)
   * [Enumerating SMB](toddlers-pentest/scanning-and-enumeration/enumerating-smb.md)
   * [Web Enumeration](toddlers-pentest/scanning-and-enumeration/web-enumeration.md)
 * [Gaining Access](toddlers-pentest/gaining-access/README.md)
@@ -22,4 +23,5 @@
 
 * [Calling Conventions](pwn/calling-conventions.md)
 * [Debuggers](pwn/debuggers.md)
+* [Examining Binaries](pwn/examining-binaries.md)
 
