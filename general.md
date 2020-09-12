@@ -17,48 +17,6 @@
 
 A Great [cheatsheet](https://tmuxcheatsheet.com/).
 
-## Print by Hexadecimal Representation
-
-### xxd
-
-xxd is built-in Linux. create a file with hex representation. For example:
-
-```text
- echo "00: 68 65 6c 6c 6f" > xxd_hex
-```
-
-convert to raw bites with xxd:
-
-```text
-xxd -r xxd_hex
-```
-
-### printf
-
-```text
-printf "\x68\x65\x6c\x6c\x6f"
-```
-
-### echo
-
-```text
-echo $'\x68\x65\x6c\x6c\x6f'
-```
-
-### python3
-
-python3 \[or python\] may not exist on the machine.
-
-```text
-python3 -c "print('\x68\x65\x6c\x6c\x6f')"
-```
-
-If you don't want unreadable characters to be interpreted as UTF-8 with python3 use this instead:
-
-```text
-python3 -c "import sys; sys.stdout.buffer.write(b'\xca\xfe\xba\xbe\n')"
-```
-
 ## Adding modules to Metasploit
 
 A [short guide](https://medium.com/@pentest_it/how-to-add-a-module-to-metasploit-from-exploit-db-d389c2a33f6d) of how to add a module from Exploit-DB to Metasploit.

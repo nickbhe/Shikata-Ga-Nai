@@ -1,41 +1,33 @@
-# Privilege Escalation
+# Privesc
 
 ## Manual Privesc
 
 ### Identify myself
 
 * **whoami**
-* Windows, **net user &lt;Username&gt;**: will provide additional info about the user
 * Linux, **id**: will provide additional info about the user
 
 ### Find info about other users
 
-* Windows, **net user**: reveal other accounts
 * Linux, **cat /etc/passwd**
 
 ### Info about the host
 
 * **hostname**
-* Windows, **systeminfo** \[can be filtered with some useful flags\]
 * Linux, **cat /etc/issue**, **cat /etc/release**, **release -a**
 
 ### Running processes
 
-* Window, **tasklist** &lt;Flag&gt; \[for example /SVC\]
 * Linux, **ps** &lt;Flag&gt; \[for example -xau: all processes, readble\]
 
 ### Networking Information
 
-* Windows, **ipconfig /all**
-* Windows, **route print**: routing commands
-* Windows, **netstat-ano**: list connections
 * Linux, **ip a**
 * Linux, **/sbin/route** \[or **/sbin/routel**\]: display routing tables
 * Linux, **netstat** \[or **ss**\] **-anp**: list connections
 
 ### Firewall status and rules
 
-* Windows, **netsh**: firewall profile
 * Linux, try and peek the configuration. For example **grep -Hs iptables /etc/\***
 
 ...

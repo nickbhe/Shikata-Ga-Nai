@@ -1,27 +1,38 @@
 # Table of contents
 
 * [Shikata Ga Nai](README.md)
+* [General](general.md)
 
-## Toddler's Pentest
+## Gaining Access
 
-* [General](toddlers-pentest/general.md)
-* [Scanning & Enumeration](toddlers-pentest/scanning-and-enumeration/README.md)
-  * [Nmap](toddlers-pentest/scanning-and-enumeration/nmap.md)
-  * [FTP](toddlers-pentest/scanning-and-enumeration/ftp.md)
-  * [Enumerating SMB](toddlers-pentest/scanning-and-enumeration/enumerating-smb.md)
-  * [Web Enumeration](toddlers-pentest/scanning-and-enumeration/web-enumeration.md)
-* [Gaining Access](toddlers-pentest/gaining-access/README.md)
-  * [Reverse Shell](toddlers-pentest/gaining-access/reverse-shell.md)
-  * [XSS](toddlers-pentest/gaining-access/xss.md)
-  * [File Inclusion](toddlers-pentest/gaining-access/file-inclusion.md)
-  * [SQL Injection](toddlers-pentest/gaining-access/sql-injection.md)
-  * [Password Cracking](toddlers-pentest/gaining-access/password-cracking.md)
-* [Privilege Escalation](toddlers-pentest/privilege-escalation/README.md)
-  * [Generate Payload](toddlers-pentest/privilege-escalation/generate-payload.md)
+* [Nmap](gaining-access/nmap.md)
+* [Reverse Shell](gaining-access/reverse-shell.md)
+* [Password Cracking](gaining-access/password-cracking.md)
+* [Other Services](gaining-access/other-services/README.md)
+  * [21 - FTP](gaining-access/other-services/21-ftp.md)
+  * [Enumerating SMB](gaining-access/other-services/enumerating-smb.md)
+* [Web](gaining-access/web/README.md)
+  * [Web Enumeration](gaining-access/web/web-enumeration.md)
+  * [XSS](gaining-access/web/xss.md)
+  * [File Inclusion](gaining-access/web/file-inclusion.md)
+  * [SQL Injection](gaining-access/web/sql-injection.md)
 
-## PWN
+## Linux Foothold
 
-* [Calling Conventions](pwn/calling-conventions.md)
-* [Debuggers](pwn/debuggers.md)
-* [Examining Binaries](pwn/examining-binaries.md)
+* [Linux Tricks](linux-foothold/linux-tricks.md)
+* [Privesc](linux-foothold/privesc.md)
+
+## Windows Foothold
+
+* [Privesc](windows-foothold/privesc.md)
+
+## Binary
+
+* [Calling Conventions](binary/calling-conventions.md)
+* [Debuggers](binary/debuggers.md)
+* [Examining Binaries](binary/examining-binaries.md)
+
+## Stego
+
+* [Stego tools](stego/stego-tools.md)
 
