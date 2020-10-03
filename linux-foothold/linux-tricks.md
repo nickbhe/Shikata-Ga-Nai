@@ -50,5 +50,3 @@ python3 -c "import sys; sys.stdout.buffer.write(b'\xca\xfe\xba\xbe\n')"
 python3 -m http.server
 ```
 
-
-

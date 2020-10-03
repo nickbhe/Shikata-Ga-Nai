@@ -104,6 +104,28 @@ x/32xw $eip
 x/5i *func
 ```
 
+#### Disassemble
+
+disassemble a function, range, length and more.
+
+```text
+disas *main
+```
+
+To save yourself the complication of AT&T assembly, change it to Intel with:
+
+```text
+set disassembly-flavor intel
+```
+
+### Set
+
+Chage register value with **set**:
+
+```text
+set $<REGISTER> = <VALUE>
+```
+
 ## WinDbg
 
 #### Set breakpoint
