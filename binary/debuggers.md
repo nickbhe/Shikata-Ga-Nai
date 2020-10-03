@@ -104,3 +104,25 @@ x/32xw $eip
 x/5i *func
 ```
 
+## WinDbg
+
+#### Set breakpoint
+
+```text
+bp <ADDRESS>
+```
+
+#### Execution flow
+
+```text
+p [COUNT] # Step over (or F10)
+t [COUNT] # Step into (or F8)
+g # Go
+```
+
+#### Examine memory
+
+```text
+d <START_ADDRESS> [END_ADDRESS]
+```
+
