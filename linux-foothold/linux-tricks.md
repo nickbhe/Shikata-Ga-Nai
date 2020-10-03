@@ -42,5 +42,13 @@ If you don't want unreadable characters to be interpreted as UTF-8 with python3 
 python3 -c "import sys; sys.stdout.buffer.write(b'\xca\xfe\xba\xbe\n')"
 ```
 
-## 
+## Other
+
+#### http server with python
+
+```text
+python3 -m http.server
+```
+
+
 
