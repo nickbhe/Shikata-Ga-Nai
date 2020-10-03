@@ -26,8 +26,8 @@ Included in the **devscripts** package on debian-based distros.
 
 ### Let's dump stuff!
 
-* strings
-* objdump \| less
-* strace
-* ltrace
+* `strings <FILE>` - look for any readable clue.
+* `objdump -x <FILE> | less` - Information about the file, headers, sections and more. pipe for easy reading.
+* `strace <FILE>` - examine syscalls in the binary.
+* `ltrace <FILE>` - examine library calls in the binary.
 
