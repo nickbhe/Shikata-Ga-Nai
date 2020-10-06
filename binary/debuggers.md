@@ -42,6 +42,12 @@ i b
 i registers
 ```
 
+#### Info about stack frame
+
+```text
+i frame
+```
+
 ### Breakpoints
 
 **b** is an abbreviation for **break**.
