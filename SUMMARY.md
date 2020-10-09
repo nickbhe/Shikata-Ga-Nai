@@ -31,6 +31,7 @@
 * [Calling Conventions](binary/calling-conventions.md)
 * [Debuggers](binary/debuggers.md)
 * [Examining Binaries](binary/examining-binaries.md)
+* [Shellcoding](binary/shellcoding.md)
 
 ## Stego
 
