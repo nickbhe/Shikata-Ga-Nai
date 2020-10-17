@@ -32,6 +32,7 @@
 * [Debuggers](binary/debuggers.md)
 * [Examining Binaries](binary/examining-binaries.md)
 * [Shellcoding](binary/shellcoding.md)
+* [Bypassing Exploit Mitigation Techniques \[Linux\]](binary/bypassing-exploit-mitigation-techniques-linux.md)
 
 ## Stego
 
